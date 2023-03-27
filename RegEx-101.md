@@ -21,7 +21,7 @@ Import the re module:
 import re
 ````
 
-### 2. Simple test
+### Simple test
 
 Search the string to see if it starts with '"The" and ends with "Spain":
 
