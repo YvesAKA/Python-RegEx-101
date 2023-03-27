@@ -13,7 +13,7 @@ In Python, RegEx is implemented by the `re` module.
 
 ## Basic usage
 
-### 1. Import the `re` module
+### Import the `re` module
 
 Import the re module:
 
@@ -37,7 +37,7 @@ print(re.search("^The.*Spain$", txt))
 
 The output tell us that the required pattern had been matched.
 
-### 3. inline vs compiling
+### inline vs compiling
 
 The re module gives you the possibility to call your patterns directly when you evaluate your expressions or to store these patterns in objects that you can refer to at will. Below is an example.
 
@@ -67,7 +67,7 @@ print(p.search(txt))
 
 We simply called the function `compile` from the `re` module to store our pattern on an object.
 
-### 4. Metacharacters
+### Metacharacters
 
 Metacharacters are characters with a special meaning:
 
@@ -85,7 +85,7 @@ Metacharacters are characters with a special meaning:
 |\|      |Either or|"falls\|stays"|
 |()       |Capture and group                                |        |
 
-### 5. Special Sequences
+### Special Sequences
 
 A special sequence is a \ followed by one of the characters in the list below, and has a special meaning:
 
@@ -102,7 +102,7 @@ A special sequence is a \ followed by one of the characters in the list below, a
 |\W         |Returns a match where the string DOES NOT contain any word characters            |"\W" |
 |\Z        |Returns a match if the specified characters are at the end of the string             |"Spain\Z" |
 
-### 6. Sets
+### Sets
 
 A set is a set of characters inside a pair of square brackets [] with a special meaning:
 
